@@ -22,14 +22,14 @@ def computer_guess_number():
             # reset the lower bound 
             low = n+1
             # guess again between low bound and high bound
-            n = randint(low,high)
+            n = (low+high)/2
             print(f'a higher guess: {n}')
             continue
         elif choice == 'too high' or choice == 'H': # if guess was too high
             # reset the high bound 
             high = n-1
             # guess again within the current low and high limits
-            n = randint(low, high)
+            n = (low+high)/2
             print(f'a lower guess: {n}')
             continue
         elif choice == 'correct' or choice == 'C': # if guess was correct
