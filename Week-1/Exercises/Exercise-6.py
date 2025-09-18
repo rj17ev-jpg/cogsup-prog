@@ -9,14 +9,14 @@ def is_factor(d, n):
     """True iff (if and only if) d is a divisor of n."""
     if n % d == 0:
         return True
-    return False
 
 def is_prime(n):
     if n >=2:
-        if not any(is_factor(i,n) for i in list_of_primes):
+        if not any(is_factor(i,n) for i in range((n)**0.5)):
             if n not in list_of_primes:
                 list_of_primes.append(n)
-
+                return True
+    
 
 for n in range(2,1000):
     is_prime(n)
