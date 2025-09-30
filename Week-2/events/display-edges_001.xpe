@@ -1,0 +1,17 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Tue Sep 23 2025 14:16:01
+#sha1: f662a8
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Riyas-MacBook-Air.local', release='25.0.0', version='Darwin Kernel Version 25.0.0: Mon Aug 25 21:12:01 PDT 2025; root:xnu-12377.1.9~3/RELEASE_ARM64_T8132', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+3852,design,log,
+#design: #exp: display-edges
+#design: block_cnt,block_id,trial_cnt,trial_id
+3852,design,logged,
+3852,Experiment,started
+3852,stderr,received,'Traceback (most recent call last):'
+3852,stderr,received,'  File "/Users/riyajain/Desktop/Fall 2025/CORE-1/Assignments/Week-3/Exercises/display-edges.py", line 9, in <module>'
+3853,stderr,received,'    s = screen_width * 0.05'
+3853,stderr,received,'        ~~~~~~~~~~~~~^~~~~~'
+3853,stderr,received,"TypeError: can't multiply sequence by non-int of type 'float'"

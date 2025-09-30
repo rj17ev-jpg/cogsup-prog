@@ -1,0 +1,21 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Mon Sep 29 2025 21:08:23
+#sha1: 5ea56a
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Darwin', node='Riyas-MacBook-Air.local', release='25.0.0', version='Darwin Kernel Version 25.0.0: Mon Aug 25 21:12:01 PDT 2025; root:xnu-12377.1.9~3/RELEASE_ARM64_T8132', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+4633,stdout,received,'*** DEVELOP MODE ***'
+5533,design,log,
+#design: #exp: Kanisza Square Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+5533,design,logged,
+5533,Experiment,started
+5535,Stimulus,presented,1
+5535,Stimulus,presented,2
+5535,Stimulus,presented,3
+5536,Stimulus,presented,4
+5549,Stimulus,presented,0
+9648,Keyboard,received,101,wait
+9648,Experiment,ended
+9668,Stimulus,presented,5

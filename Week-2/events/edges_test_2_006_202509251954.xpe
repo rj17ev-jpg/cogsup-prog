@@ -1,0 +1,20 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Thu Sep 25 2025 19:54:01
+#sha1: 126db9
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Darwin', node='Riyas-MacBook-Air.local', release='25.0.0', version='Darwin Kernel Version 25.0.0: Mon Aug 25 21:12:01 PDT 2025; root:xnu-12377.1.9~3/RELEASE_ARM64_T8132', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+14383,design,log,
+#design: #exp: display-edges
+#design: block_cnt,block_id,trial_cnt,trial_id
+14383,design,logged,
+14383,Experiment,started
+14383,stderr,received,'Traceback (most recent call last):'
+14383,stderr,received,'  File "/Users/riyajain/Desktop/Fall 2025/CORE-1/edges_test_2.py", line 37, in <module>'
+14383,stderr,received,'    sq = at_edges(n,"red")'
+14383,stderr,received,'         ^^^^^^^^^^^^^^^^^'
+14383,stderr,received,'  File "/Users/riyajain/Desktop/Fall 2025/CORE-1/edges_test_2.py", line 22, in at_edges'
+14383,stderr,received,'    square_length = w *0.05'
+14384,stderr,received,'                    ^'
+14384,stderr,received,"UnboundLocalError: cannot access local variable 'w' where it is not associated with a value"

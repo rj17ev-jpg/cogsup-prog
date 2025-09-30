@@ -1,0 +1,19 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Mon Sep 29 2025 19:51:54
+#sha1: 89cbf5
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Riyas-MacBook-Air.local', release='25.0.0', version='Darwin Kernel Version 25.0.0: Mon Aug 25 21:12:01 PDT 2025; root:xnu-12377.1.9~3/RELEASE_ARM64_T8132', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1686,design,log,
+#design: #exp: kanisza-rectangle
+#design: block_cnt,block_id,trial_cnt,trial_id
+1686,design,logged,
+1686,Experiment,started
+1687,Stimulus,presented,0
+1687,Stimulus,presented,1
+1687,Stimulus,presented,2
+1687,stderr,received,'Traceback (most recent call last):'
+1687,stderr,received,'  File "/Users/riyajain/Desktop/Fall 2025/CORE-1/rectangle-kanisza.py", line 40, in <module>'
+1688,stderr,received,'    for r in k[-1]:'
+1688,stderr,received,"TypeError: 'Rectangle' object is not iterable"

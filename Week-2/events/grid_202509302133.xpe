@@ -1,0 +1,35 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Tue Sep 30 2025 21:33:32
+#sha1: 4789c1
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Darwin', node='Riyas-MacBook-Air.local', release='25.0.0', version='Darwin Kernel Version 25.0.0: Wed Sep 17 21:42:08 PDT 2025; root:xnu-12377.1.9~141/RELEASE_ARM64_T8132', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+4499,stdout,received,'*** DEVELOP MODE ***'
+4500,Stimulus,presented,0
+4501,Stimulus,presented,1
+4502,Stimulus,presented,2
+4503,Stimulus,presented,3
+4503,Stimulus,presented,4
+4504,Stimulus,presented,5
+4504,Stimulus,presented,6
+4505,Stimulus,presented,7
+4506,Stimulus,presented,8
+4506,Stimulus,presented,9
+4507,Stimulus,presented,10
+4507,Stimulus,presented,11
+4508,Stimulus,presented,12
+4508,Stimulus,presented,13
+4509,Stimulus,presented,14
+4509,Stimulus,presented,15
+4510,Stimulus,presented,16
+4510,Stimulus,presented,17
+4511,Stimulus,presented,18
+4512,Stimulus,presented,19
+4512,Stimulus,presented,20
+4513,Stimulus,presented,21
+4513,Stimulus,presented,22
+4514,Stimulus,presented,23
+4514,Stimulus,presented,24
+4529,Experiment,ended
+4546,Stimulus,presented,25

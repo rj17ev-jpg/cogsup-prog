@@ -1,0 +1,20 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Mon Sep 29 2025 20:04:15
+#sha1: f43695
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Darwin', node='Riyas-MacBook-Air.local', release='25.0.0', version='Darwin Kernel Version 25.0.0: Mon Aug 25 21:12:01 PDT 2025; root:xnu-12377.1.9~3/RELEASE_ARM64_T8132', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+11244,design,log,
+#design: #exp: rectangle-kanisza
+#design: block_cnt,block_id,trial_cnt,trial_id
+11244,design,logged,
+11244,Experiment,started
+11244,stderr,received,'Traceback (most recent call last):'
+11244,stderr,received,'  File "/Users/riyajain/Desktop/Fall 2025/CORE-1/rectangle-kanisza.py", line 41, in <module>'
+11244,stderr,received,'    k = sizes(2)'
+11244,stderr,received,'        ^^^^^^^^'
+11244,stderr,received,'  File "/Users/riyajain/Desktop/Fall 2025/CORE-1/rectangle-kanisza.py", line 17, in sizes'
+11244,stderr,received,'    screen_width, _ = exp.screen.size'
+11244,stderr,received,'                      ^^^^^^^^^^^^^^^'
+11244,stderr,received,"AttributeError: 'NoneType' object has no attribute 'size'"

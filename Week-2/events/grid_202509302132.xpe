@@ -1,0 +1,38 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Tue Sep 30 2025 21:32:13
+#sha1: 641b77
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Darwin', node='Riyas-MacBook-Air.local', release='25.0.0', version='Darwin Kernel Version 25.0.0: Wed Sep 17 21:42:08 PDT 2025; root:xnu-12377.1.9~141/RELEASE_ARM64_T8132', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+4791,stdout,received,'*** DEVELOP MODE ***'
+4792,Stimulus,presented,0
+4793,Stimulus,presented,1
+4793,Stimulus,presented,2
+4794,Stimulus,presented,3
+4794,Stimulus,presented,4
+4795,Stimulus,presented,5
+4795,Stimulus,presented,6
+4796,Stimulus,presented,7
+4796,Stimulus,presented,8
+4797,Stimulus,presented,9
+4797,Stimulus,presented,10
+4798,Stimulus,presented,11
+4798,Stimulus,presented,12
+4799,Stimulus,presented,13
+4799,Stimulus,presented,14
+4800,Stimulus,presented,15
+4800,Stimulus,presented,16
+4800,Stimulus,presented,17
+4801,Stimulus,presented,18
+4801,Stimulus,presented,19
+4802,Stimulus,presented,20
+4802,Stimulus,presented,21
+4802,Stimulus,presented,22
+4803,Stimulus,presented,23
+4803,Stimulus,presented,24
+4803,stderr,received,'Traceback (most recent call last):'
+4803,stderr,received,'  File "/Users/riyajain/Desktop/Fall 2025/CORE-1/grid.py", line 49, in <module>'
+4804,stderr,received,'    exp.screen.io.update()'
+4804,stderr,received,'    ^^^^^^^^^^^^^'
+4804,stderr,received,"AttributeError: 'Screen' object has no attribute 'io'"

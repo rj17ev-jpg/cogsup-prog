@@ -1,0 +1,92 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Sat Sep 20 2025 15:09:00
+#sha1: 823298
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Riyas-MacBook-Air.local', release='25.0.0', version='Darwin Kernel Version 25.0.0: Mon Aug 25 21:12:01 PDT 2025; root:xnu-12377.1.9~3/RELEASE_ARM64_T8132', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+15710,design,log,
+#design: #exp: axis_of_motion
+#design: block_cnt,block_id,trial_cnt,trial_id
+15710,design,logged,
+15710,Experiment,started
+15727,Stimulus,presented,0
+15747,Stimulus,presented,1
+16748,Stimulus,presented,1
+16757,Stimulus,presented,0
+16757,Stimulus,presented,1
+16773,Stimulus,presented,0
+16774,Stimulus,presented,1
+16790,Stimulus,presented,0
+16790,Stimulus,presented,1
+16807,Stimulus,presented,0
+16807,Stimulus,presented,1
+16823,Stimulus,presented,0
+16823,Stimulus,presented,1
+16840,Stimulus,presented,0
+16840,Stimulus,presented,1
+16856,Stimulus,presented,0
+16857,Stimulus,presented,1
+16873,Stimulus,presented,0
+16874,Stimulus,presented,1
+16890,Stimulus,presented,0
+16890,Stimulus,presented,1
+16906,Stimulus,presented,0
+16907,Stimulus,presented,1
+16923,Stimulus,presented,0
+16924,Stimulus,presented,1
+16943,Stimulus,presented,0
+16944,Stimulus,presented,1
+16960,Stimulus,presented,0
+16961,Stimulus,presented,1
+16973,Stimulus,presented,0
+16974,Stimulus,presented,1
+16994,Stimulus,presented,0
+16995,Stimulus,presented,1
+17011,Stimulus,presented,0
+17012,Stimulus,presented,1
+17027,Stimulus,presented,0
+17027,Stimulus,presented,1
+17044,Stimulus,presented,0
+17044,Stimulus,presented,1
+17060,Stimulus,presented,0
+17060,Stimulus,presented,1
+17076,Stimulus,presented,0
+17077,Stimulus,presented,1
+17093,Stimulus,presented,0
+17093,Stimulus,presented,1
+17109,Stimulus,presented,0
+17110,Stimulus,presented,1
+17126,Stimulus,presented,0
+17127,Stimulus,presented,1
+17143,Stimulus,presented,0
+17144,Stimulus,presented,1
+17159,Stimulus,presented,0
+17160,Stimulus,presented,1
+17176,Stimulus,presented,0
+17177,Stimulus,presented,1
+17190,Stimulus,presented,0
+17190,Stimulus,presented,1
+17211,Stimulus,presented,0
+17213,Stimulus,presented,1
+17227,Stimulus,presented,0
+17228,Stimulus,presented,1
+17244,Stimulus,presented,0
+17244,Stimulus,presented,1
+17257,Stimulus,presented,0
+17257,Stimulus,presented,1
+17277,Stimulus,presented,0
+17278,Stimulus,presented,1
+17291,Stimulus,presented,0
+17292,Stimulus,presented,1
+17308,Stimulus,presented,0
+17309,Stimulus,presented,1
+17325,Stimulus,presented,0
+17325,stderr,received,'Traceback (most recent call last):'
+17325,stderr,received,'  File "/Users/riyajain/Desktop/Fall 2025/CORE-1/expyriment/challenge - trigonometry.py", line 39, in <module>'
+17326,stderr,received,'    s2.move([pick_axis()])'
+17326,stderr,received,'             ^^^^^^^^^^^'
+17326,stderr,received,'  File "/Users/riyajain/Desktop/Fall 2025/CORE-1/expyriment/challenge - trigonometry.py", line 23, in pick_axis'
+17326,stderr,received,'    degree = random.randint(0,361)'
+17326,stderr,received,'             ^^^^^^^^^^^^^^'
+17326,stderr,received,"AttributeError: 'builtin_function_or_method' object has no attribute 'randint'"

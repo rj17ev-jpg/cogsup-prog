@@ -1,0 +1,43 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Tue Sep 30 2025 21:40:59
+#sha1: 2eac69
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Darwin', node='Riyas-MacBook-Air.local', release='25.0.0', version='Darwin Kernel Version 25.0.0: Wed Sep 17 21:42:08 PDT 2025; root:xnu-12377.1.9~141/RELEASE_ARM64_T8132', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+4580,stdout,received,'*** DEVELOP MODE ***'
+4598,design,log,
+#design: #exp: Kanisza Square Experiment
+#design: block_cnt,block_id,trial_cnt,trial_id
+4598,design,logged,
+4598,Experiment,started
+4599,Stimulus,presented,0
+4600,Stimulus,presented,1
+4601,Stimulus,presented,2
+4602,Stimulus,presented,3
+4603,Stimulus,presented,4
+4603,Stimulus,presented,5
+4604,Stimulus,presented,6
+4605,Stimulus,presented,7
+4605,Stimulus,presented,8
+4606,Stimulus,presented,9
+4606,Stimulus,presented,10
+4607,Stimulus,presented,11
+4608,Stimulus,presented,12
+4608,Stimulus,presented,13
+4609,Stimulus,presented,14
+4609,Stimulus,presented,15
+4610,Stimulus,presented,16
+4611,Stimulus,presented,17
+4611,Stimulus,presented,18
+4612,Stimulus,presented,19
+4612,Stimulus,presented,20
+4613,Stimulus,presented,21
+4613,Stimulus,presented,22
+4614,Stimulus,presented,23
+4614,Stimulus,presented,24
+12274,Experiment,paused
+12281,Stimulus,presented,25
+14766,Keyboard,received,y,wait_char
+14766,Experiment,ended
+14782,Stimulus,presented,25

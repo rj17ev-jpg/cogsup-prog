@@ -1,0 +1,17 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Thu Sep 25 2025 19:04:29
+#sha1: 7c40ae
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Darwin', node='Riyas-MacBook-Air.local', release='25.0.0', version='Darwin Kernel Version 25.0.0: Mon Aug 25 21:12:01 PDT 2025; root:xnu-12377.1.9~3/RELEASE_ARM64_T8132', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+12397,design,log,
+#design: #exp: display-edges
+#design: block_cnt,block_id,trial_cnt,trial_id
+12397,design,logged,
+12397,Experiment,started
+12398,stderr,received,'Traceback (most recent call last):'
+12398,stderr,received,'  File "/Users/riyajain/Desktop/Fall 2025/CORE-1/# edges_test.py", line 27, in <module>'
+12398,stderr,received,'    at_edges(r,50,"red")'
+12398,stderr,received,'             ^'
+12398,stderr,received,"NameError: name 'r' is not defined"

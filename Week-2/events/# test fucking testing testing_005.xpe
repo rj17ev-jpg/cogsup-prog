@@ -1,0 +1,17 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Sat Sep 20 2025 14:13:15
+#sha1: 0512b7
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Riyas-MacBook-Air.local', release='25.0.0', version='Darwin Kernel Version 25.0.0: Mon Aug 25 21:12:01 PDT 2025; root:xnu-12377.1.9~3/RELEASE_ARM64_T8132', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+2062,design,log,
+#design: #exp: test
+#design: block_cnt,block_id,trial_cnt,trial_id
+2062,design,logged,
+2062,Experiment,started
+2070,Stimulus,presented,0
+2070,stderr,received,'Traceback (most recent call last):'
+2070,stderr,received,'  File "/Users/riyajain/Desktop/Fall 2025/CORE-1/expyriment/# test fucking testing testing.py", line 16, in <module>'
+2070,stderr,received,'    s.move(5,0)'
+2070,stderr,received,'TypeError: Visual.move() takes 2 positional arguments but 3 were given'

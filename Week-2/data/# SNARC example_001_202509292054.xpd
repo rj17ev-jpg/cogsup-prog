@@ -1,0 +1,54 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpd-file, coding: UTF-8
+#date: Mon Sep 29 2025 20:54:22
+#--EXPERIMENT INFO
+#e mainfile: # SNARC example.py
+#e sha1: 28c06f
+#e modules: 
+#e This a just a SNARC experiment.
+#e Experiment: SNARC
+#e between subject factors (permutation type: latin square)
+#e     mapping_order = [left_odd_first, right_odd_first]
+#e Block 0: unnamed
+#e     block factors: mapping = left_odd
+#e     n trials: 80
+#e     trial factors: digit = [1, 2, 3, 4, 6, 7, 8, 9]
+#e                    
+#e Block 1: unnamed
+#e     block factors: mapping = right_odd
+#e     n trials: 80
+#e     trial factors: digit = [1, 2, 3, 4, 6, 7, 8, 9]
+#e                    
+#--SUBJECT INFO
+#s id: 1
+#s mapping_order = left_odd_first
+subject_id,block,mapping,trial,digit,ISI,btn,RT,error
+1,0,left_odd,-1,4,417,1073741903,2118,0
+1,0,left_odd,-2,3,324,1073741904,846,0
+1,0,left_odd,-3,7,386,1073741904,700,0
+1,0,left_odd,-4,4,444,1073741903,547,0
+1,0,left_odd,-5,1,572,1073741904,577,0
+1,0,left_odd,-6,4,534,1073741903,601,0
+1,0,left_odd,-7,9,369,1073741904,800,0
+1,0,left_odd,-8,1,555,1073741904,1118,0
+1,0,left_odd,-9,2,351,1073741903,979,0
+1,0,left_odd,-10,1,651,1073741904,539,0
+1,0,left_odd,0,3,656,1073741904,547,0
+1,0,left_odd,1,8,520,1073741903,482,0
+1,0,left_odd,2,2,248,1073741904,578,1
+1,0,left_odd,3,8,379,1073741903,697,0
+1,0,left_odd,4,8,556,1073741903,445,0
+1,0,left_odd,5,2,319,1073741903,710,0
+1,0,left_odd,6,7,538,1073741904,504,0
+1,0,left_odd,7,7,443,1073741904,672,0
+1,0,left_odd,8,9,401,1073741904,728,0
+1,0,left_odd,9,4,346,1073741903,666,0
+1,0,left_odd,10,2,331,1073741903,751,0
+1,0,left_odd,11,9,207,1073741904,5045,0
+1,0,left_odd,12,1,693,1073741904,496,0
+1,0,left_odd,13,4,329,1073741903,621,0
+1,0,left_odd,14,8,302,1073741903,652,0
+1,0,left_odd,15,6,409,1073741903,596,0
+1,0,left_odd,16,8,490,1073741903,405,0
+1,0,left_odd,17,7,671,1073741904,425,0
+1,0,left_odd,18,2,365,1073741903,558,0
+1,0,left_odd,19,3,421,1073741904,775,0

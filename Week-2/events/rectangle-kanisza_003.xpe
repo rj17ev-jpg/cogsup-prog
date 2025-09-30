@@ -1,0 +1,29 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Mon Sep 29 2025 19:46:48
+#sha1: c18aa5
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Riyas-MacBook-Air.local', release='25.0.0', version='Darwin Kernel Version 25.0.0: Mon Aug 25 21:12:01 PDT 2025; root:xnu-12377.1.9~3/RELEASE_ARM64_T8132', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+2225,design,log,
+#design: #exp: kanisza-rectangle
+#design: block_cnt,block_id,trial_cnt,trial_id
+2225,design,logged,
+2225,Experiment,started
+2226,stderr,received,'Traceback (most recent call last):'
+2226,stderr,received,'  File "/Users/riyajain/Desktop/Fall 2025/CORE-1/rectangle-kanisza.py", line 35, in <module>'
+2226,stderr,received,'    k = sizes(1.5)'
+2226,stderr,received,'        ^^^^^^^^^^'
+2226,stderr,received,'  File "/Users/riyajain/Desktop/Fall 2025/CORE-1/rectangle-kanisza.py", line 29, in sizes'
+2226,stderr,received,'    k.append(rect.scale(rectangle_sf))'
+2226,stderr,received,'             ^^^^^^^^^^^^^^^^^^^^^^^^'
+2226,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/stimuli/_visual.py", line 1316, in scale'
+2227,stderr,received,'    if not self._set_surface(self._get_surface()):'
+2227,stderr,received,'                             ^^^^^^^^^^^^^^^^^^^'
+2227,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/stimuli/_visual.py", line 490, in _get_surface'
+2227,stderr,received,'    tmp = self._create_surface()'
+2227,stderr,received,'          ^^^^^^^^^^^^^^^^^^^^^^'
+2227,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/stimuli/_rectangle.py", line 237, in _create_surface'
+2227,stderr,received,'    surface = pygame.surface.Surface('
+2227,stderr,received,'              ^^^^^^^^^^^^^^^^^^^^^^^'
+2227,stderr,received,'ValueError: size needs to be (number width, number height)'

@@ -1,0 +1,33 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Sat Sep 20 2025 15:18:42
+#sha1: 4ed70d
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Darwin', node='Riyas-MacBook-Air.local', release='25.0.0', version='Darwin Kernel Version 25.0.0: Mon Aug 25 21:12:01 PDT 2025; root:xnu-12377.1.9~3/RELEASE_ARM64_T8132', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+47266,stderr,received,'Traceback (most recent call last):'
+47266,stderr,received,'  File "/Users/riyajain/Desktop/Fall 2025/CORE-1/Assignments/Week-2/Exercises/labeled_shapes.py", line 19, in <module>'
+47266,stderr,received,'    '
+47267,stderr,received,'    ^'
+47267,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/control/_experiment_control.py", line 135, in start'
+47267,stderr,received,'    subject_id = ask_for_subject.get(repr(default_number))'
+47267,stderr,received,'                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+47267,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/io/_textinput.py", line 490, in get'
+47267,stderr,received,'    keys = self._get_key(process_control_events)'
+47267,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+47267,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/io/_textinput.py", line 341, in _get_key'
+47267,stderr,received,'    if _internals.active_exp.keyboard.process_control_keys(event) or \\'
+47267,stderr,received,'       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+47267,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/io/_keyboard.py", line 145, in process_control_keys'
+47268,stderr,received,'    cls.quit_control.call_functions(event_detected_function,'
+47268,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/io/_keyboard.py", line 63, in call_functions'
+47268,stderr,received,'    confirm = cls.end_function('
+47268,stderr,received,'              ^^^^^^^^^^^^^^^^^'
+47268,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/control/_experiment_control.py", line 322, in end'
+47268,stderr,received,'    char = Keyboard().wait_char(["y", "n"], process_control_events=False,'
+47268,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+47268,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/io/_keyboard.py", line 482, in wait_char'
+47268,stderr,received,'    _internals.low_performance_sleep()'
+47268,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/_internals.py", line 19, in low_performance_sleep'
+47268,stderr,received,'    sleep(0.0001)'
+47268,stderr,received,'KeyboardInterrupt'
