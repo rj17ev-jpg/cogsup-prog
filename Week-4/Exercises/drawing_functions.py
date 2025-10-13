@@ -6,11 +6,10 @@ def load(stims):
         i.preload()
 
 def timed_draw(stims):
-    time = []
+    time = exp.clock.time
     for i, stim in enumerate(stims):
         t = stim.present(clear=(i == 0), update=(i == len(stims) - 1))
-        time.append(t)
-    return sum(time)
+    return exp.clock.time - time
     # return the time it took to draw
 
 def present_for(stims, t=1000):
