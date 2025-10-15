@@ -4,11 +4,11 @@ import random
 
 """ Constants """
 KEYS = [K_j, K_f]
-TRIAL_TYPES = 
-COLORS =
+TRIAL_TYPES = ["match","mismatch"]
+COLORS = ["RED","GREEN","BLUE","ORANGE"]
 
-N_BLOCKS = 
-N_TRIALS_IN_BLOCK = 
+N_BLOCKS = 2
+N_TRIALS_IN_BLOCK = 16
 
 INSTR_START = """
 In this task, you have to indicate whether the meaning of a word and the color of its font match.
@@ -18,8 +18,8 @@ Press SPACE to continue.
 INSTR_MID = """You have finished half of the experiment, well done! Your task will be the same.\nTake a break then press SPACE to move on to the second half."""
 INSTR_END = """Well done!\nPress SPACE to quit the experiment."""
 
-FEEDBACK_CORRECT = """ """
-FEEDBACK_INCORRECT = """ """
+FEEDBACK_CORRECT = """CORRECT"""
+FEEDBACK_INCORRECT = """INCORRECT"""
 
 """ Helper functions """
 def load(stims):
@@ -58,6 +58,8 @@ fixation.preload()
 stims = stims = {w: {c: stimuli.TextLine(w, text_colour=c) for c in COLORS} for w in COLORS}
 load([stims[w][c] for w in COLORS for c in COLORS])
 
+
+
 feedback_correct = stimuli.TextLine(FEEDBACK_CORRECT)
 feedback_incorrect = stimuli.TextLine(FEEDBACK_INCORRECT)
 load([feedback_correct, feedback_incorrect])
@@ -78,9 +80,9 @@ control.start(subject_id=1)
 present_instructions(INSTR_START)
 for block_id in range(1, N_BLOCKS + 1):
     for trial_id in range(1, N_TRIALS_IN_BLOCK + 1):
-        trial_type =
-        word = 
-        color = 
+        trial_type = design.randomize.rand_element(TRIAL_TYPES)
+        word = design.randomize.rand_element(stims)
+        color = word if trial_type == "match" else design.randomize.rand_element(c for c in COLORS if c !=word)
         run_trial(block_id, trial_id, trial_type, word, color)
     if block_id != N_BLOCKS:
         present_instructions(INSTR_MID)
