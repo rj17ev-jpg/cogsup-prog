@@ -1,0 +1,58 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Fri Oct 10 2025 11:08:19
+#sha1: None
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Riyas-MacBook-Air.local', release='25.0.0', version='Darwin Kernel Version 25.0.0: Wed Sep 17 21:42:08 PDT 2025; root:xnu-12377.1.9~141/RELEASE_ARM64_T8132', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+7026,design,log,
+#design: #exp: Blindspot
+#design: #dvn: side,final radius,final x coordinate,final y coordinate
+#design: block_cnt,block_id,trial_cnt,trial_id
+7026,design,logged,
+7026,Experiment,started
+7044,Stimulus,presented,0
+7860,Keyboard,received,32,wait
+7863,Stimulus,presented,1
+7873,Stimulus,presented,2
+8940,Keyboard,received,1073741906,wait
+8941,Stimulus,presented,1
+8957,Stimulus,presented,2
+9117,Keyboard,received,1073741906,wait
+9117,Stimulus,presented,1
+9123,Stimulus,presented,2
+9244,Keyboard,received,1073741906,wait
+9244,Stimulus,presented,1
+9256,Stimulus,presented,2
+9384,Keyboard,received,1073741906,wait
+9384,Stimulus,presented,1
+9390,Stimulus,presented,2
+9575,Keyboard,received,1073741904,wait
+9575,Stimulus,presented,1
+9590,Stimulus,presented,2
+9722,Keyboard,received,1073741904,wait
+9722,Stimulus,presented,1
+9740,Stimulus,presented,2
+9869,Keyboard,received,1073741904,wait
+9869,Stimulus,presented,1
+9873,Stimulus,presented,2
+10030,Keyboard,received,1073741906,wait
+10030,Stimulus,presented,1
+10040,Stimulus,presented,2
+10187,Keyboard,received,1073741906,wait
+10187,Stimulus,presented,1
+10190,Stimulus,presented,2
+10358,Keyboard,received,1073741906,wait
+10358,Stimulus,presented,1
+10373,Stimulus,presented,2
+10539,Keyboard,received,1073741904,wait
+10539,Stimulus,presented,1
+10556,Stimulus,presented,2
+12423,Keyboard,received,50,wait
+12423,Stimulus,presented,1
+12441,Stimulus,presented,3
+12545,Keyboard,received,50,wait
+12545,Stimulus,presented,1
+12556,Stimulus,presented,4
+14247,Keyboard,received,32,wait
+14247,Experiment,ended

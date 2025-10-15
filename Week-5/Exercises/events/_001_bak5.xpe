@@ -1,0 +1,16 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Fri Oct 10 2025 11:45:55
+#sha1: None
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Riyas-MacBook-Air.local', release='25.0.0', version='Darwin Kernel Version 25.0.0: Wed Sep 17 21:42:08 PDT 2025; root:xnu-12377.1.9~141/RELEASE_ARM64_T8132', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+33015,design,log,
+#design: #exp: Stroop
+#design: #dvn: trial block,trial number,trial type,word meaning,text color,RTs,accuracy
+#design: block_cnt,block_id,trial_cnt,trial_id
+33015,design,logged,
+33015,Experiment,started
+33035,Stimulus,presented,0
+38602,Keyboard,received,32,wait
+38602,Experiment,ended

@@ -1,0 +1,20 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Fri Oct 03 2025 16:00:09
+#sha1: 84410a
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Riyas-MacBook-Air.local', release='25.0.0', version='Darwin Kernel Version 25.0.0: Wed Sep 17 21:42:08 PDT 2025; root:xnu-12377.1.9~141/RELEASE_ARM64_T8132', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+784,Stimulus,presented,0
+1296,Stimulus,presented,1
+1784,Stimulus,presented,0
+2294,Stimulus,presented,2
+2784,Stimulus,presented,0
+3294,Stimulus,presented,3
+3784,Stimulus,presented,0
+4294,Stimulus,presented,4
+4785,Stimulus,presented,0
+5294,Stimulus,presented,5
+5785,stdout,received,'[1000, 1000, 1000, 1000, 1001]'
+5785,Experiment,ended
+5794,Stimulus,presented,6

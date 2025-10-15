@@ -1,0 +1,122 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Fri Oct 10 2025 13:35:05
+#sha1: None
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Riyas-MacBook-Air.local', release='25.0.0', version='Darwin Kernel Version 25.0.0: Wed Sep 17 21:42:08 PDT 2025; root:xnu-12377.1.9~141/RELEASE_ARM64_T8132', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+5272,design,log,
+#design: #exp: Stroop
+#design: #dvn: trial block,trial number,trial type,word meaning,text color,RTs,accuracy
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 1,1,0,0
+#design: 1,1,1,1
+#design: 1,1,2,2
+#design: 1,1,3,3
+#design: 1,1,4,4
+5272,design,logged,
+5272,Experiment,started
+5291,Stimulus,presented,0
+6682,Keyboard,received,32,wait
+6688,Stimulus,presented,1
+7203,Stimulus,presented,2
+7919,Keyboard,received,1073741903,wait
+7937,Stimulus,presented,3
+8953,Stimulus,presented,4
+9469,Stimulus,presented,5
+10846,Keyboard,received,1073741904,wait
+10855,Stimulus,presented,6
+11870,Stimulus,presented,7
+12387,Stimulus,presented,8
+12987,Keyboard,received,1073741904,wait
+13004,Stimulus,presented,9
+14020,Stimulus,presented,10
+14537,Stimulus,presented,11
+15268,Keyboard,received,1073741904,wait
+15287,Stimulus,presented,12
+16304,Stimulus,presented,13
+16819,Stimulus,presented,14
+17468,Keyboard,received,1073741903,wait
+17486,Stimulus,presented,15
+18504,Stimulus,presented,0
+19167,Keyboard,received,32,wait
+19170,Stimulus,presented,16
+19687,Stimulus,presented,17
+20362,Keyboard,received,1073741903,wait
+20370,Stimulus,presented,18
+21387,Stimulus,presented,19
+21904,Stimulus,presented,20
+22336,Keyboard,received,1073741904,wait
+22354,Stimulus,presented,21
+23370,Stimulus,presented,22
+23887,Stimulus,presented,23
+24432,Keyboard,received,1073741904,wait
+24436,Stimulus,presented,24
+25454,Stimulus,presented,25
+25970,Stimulus,presented,26
+26593,Keyboard,received,1073741904,wait
+26604,Stimulus,presented,27
+27620,Stimulus,presented,28
+28137,Stimulus,presented,29
+28793,Keyboard,received,1073741904,wait
+28803,Stimulus,presented,30
+31606,Keyboard,received,32,wait
+31606,Experiment,ended
+3204,design,log,
+#design: #exp: Stroop
+#design: #dvn: trial block,trial number,trial type,word meaning,text color,RTs,accuracy
+#design: block_cnt,block_id,trial_cnt,trial_id
+3204,design,logged,
+3204,Experiment,started
+3227,Stimulus,presented,1
+3737,Stimulus,presented,2
+5018,Keyboard,received,1073741904,wait
+5038,Stimulus,presented,3
+6054,Stimulus,presented,4
+6570,Stimulus,presented,5
+8705,Keyboard,received,1073741904,wait
+8722,Stimulus,presented,6
+9737,Stimulus,presented,7
+10254,Stimulus,presented,8
+13952,Keyboard,received,1073741903,wait
+13972,Stimulus,presented,9
+14987,Stimulus,presented,10
+15504,Stimulus,presented,11
+17117,Keyboard,received,1073741904,wait
+17121,Stimulus,presented,12
+18138,Stimulus,presented,13
+18654,Stimulus,presented,14
+21679,Experiment,paused
+21689,Stimulus,presented,15
+4378,design,log,
+#design: #exp: Stroop
+#design: #dvn: trial block,trial number,trial type,word meaning,text color,RTs,accuracy
+#design: block_cnt,block_id,trial_cnt,trial_id
+4378,design,logged,
+4378,Experiment,started
+4398,Stimulus,presented,1
+4912,Stimulus,presented,2
+8232,Keyboard,received,1073741904,wait
+3869,design,log,
+#design: #exp: Stroop
+#design: #dvn: trial block,trial number,trial type,word meaning,text color,RTs,accuracy
+#design: block_cnt,block_id,trial_cnt,trial_id
+3869,design,logged,
+3869,Experiment,started
+5302,design,log,
+#design: #exp: Stroop
+#design: #dvn: trial block,trial number,trial type,word meaning,text color,RTs,accuracy
+#design: block_cnt,block_id,trial_cnt,trial_id
+5302,design,logged,
+5302,Experiment,started
+1002,design,log,
+#design: #exp: Stroop
+#design: #dvn: trial block,trial number,trial type,word meaning,text color,RTs,accuracy
+#design: block_cnt,block_id,trial_cnt,trial_id
+1002,design,logged,
+1002,Experiment,started

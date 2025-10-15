@@ -1,0 +1,16 @@
+10332,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+10332,design,logged,
+10332,Experiment,started
+10335,Stimulus,presented,0
+10338,Stimulus,presented,1
+11650,Keyboard,received,50,wait
+2754,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+2754,design,logged,
+2754,Experiment,started
+2758,Stimulus,presented,0
+2772,Stimulus,presented,1
+4616,Keyboard,received,50,wait

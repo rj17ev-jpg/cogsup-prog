@@ -1,0 +1,39 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpd-file, coding: UTF-8
+#date: Fri Oct 10 2025 13:30:39
+#--EXPERIMENT INFO
+#e mainfile: 
+#e sha1: None
+#e modules: 
+#e Experiment: Stroop
+#e no between subject factors
+#e Block 0: unnamed
+#e     block factors: 
+#e     n trials: 10
+#e     trial factors: 
+#e Block 1: unnamed
+#e     block factors: 
+#e     n trials: 10
+#e     trial factors: 
+#--SUBJECT INFO
+#s id: 1
+subject_id,trial block,trial number,trial type,word meaning,text color,RTs,accuracy
+1,MATCH,RED,"Colour(red=255, green=0, blue=0)",477,0
+1,MATCH,RED,"Colour(red=255, green=0, blue=0)",575,0
+1,MISMATCH,BLUE,"Colour(red=255, green=0, blue=0)",785,0
+1,MISMATCH,RED,"Colour(red=0, green=0, blue=255)",1116,0
+1,MISMATCH,ORANGE,"Colour(red=0, green=255, blue=0)",882,0
+1,MISMATCH,GREEN,"Colour(red=255, green=150, blue=50)",505,0
+1,MATCH,BLUE,"Colour(red=0, green=0, blue=255)",685,0
+1,MISMATCH,RED,"Colour(red=0, green=0, blue=255)",558,0
+1,MATCH,GREEN,"Colour(red=0, green=255, blue=0)",593,0
+1,MATCH,RED,"Colour(red=255, green=0, blue=0)",650,0
+1,MATCH,GREEN,"Colour(red=0, green=255, blue=0)",582,0
+1,MATCH,RED,"Colour(red=255, green=0, blue=0)",1746,0
+1,MISMATCH,BLUE,"Colour(red=255, green=0, blue=0)",610,0
+1,MISMATCH,BLUE,"Colour(red=0, green=255, blue=0)",596,0
+1,MATCH,RED,"Colour(red=255, green=0, blue=0)",534,0
+1,MISMATCH,BLUE,"Colour(red=255, green=150, blue=50)",574,0
+1,MISMATCH,RED,"Colour(red=255, green=150, blue=50)",550,0
+1,MISMATCH,ORANGE,"Colour(red=0, green=255, blue=0)",521,0
+1,MISMATCH,RED,"Colour(red=0, green=0, blue=255)",794,0
+1,MATCH,BLUE,"Colour(red=0, green=0, blue=255)",525,0

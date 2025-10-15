@@ -1,0 +1,30 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Fri Oct 03 2025 15:58:40
+#sha1: ce0df6
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Riyas-MacBook-Air.local', release='25.0.0', version='Darwin Kernel Version 25.0.0: Wed Sep 17 21:42:08 PDT 2025; root:xnu-12377.1.9~141/RELEASE_ARM64_T8132', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+966,Stimulus,presented,0
+966,stdout,received,'0 timing: 1'
+1475,Stimulus,presented,1
+1475,stdout,received,'1 timing: 10'
+1965,Stimulus,presented,0
+1965,stdout,received,'0 timing: 0'
+2476,Stimulus,presented,2
+2476,stdout,received,'1 timing: 11'
+2965,Stimulus,presented,0
+2965,stdout,received,'0 timing: 0'
+3476,Stimulus,presented,3
+3476,stdout,received,'1 timing: 11'
+3965,Stimulus,presented,0
+3965,stdout,received,'0 timing: 0'
+4476,Stimulus,presented,4
+4476,stdout,received,'1 timing: 11'
+4965,Stimulus,presented,0
+4965,stdout,received,'0 timing: 0'
+5475,Stimulus,presented,5
+5475,stdout,received,'1 timing: 10'
+5965,stdout,received,'[1000, 1000, 1000, 1000, 1000]'
+5966,Experiment,ended
+5975,Stimulus,presented,6
